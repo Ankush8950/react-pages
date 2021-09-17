@@ -1,0 +1,39 @@
+.service_page{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(to Right ,rgb(109, 111, 252) ,rgb(103, 105, 247), rgb(110, 112, 255),rgb(115, 105, 252));
+}
+.heading_div h1{
+    /* margin-bottom: 10px; */
+    text-transform: uppercase;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    color: white;
+}
+.heading_div{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+.service_api{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+/* .copy_right_div{
+    height: 20px;
+    background-color: black;
+    margin-bottom: 20px;
+    /* position: fixed; */
+/* }  */
+
+
+
+
+
+
+    

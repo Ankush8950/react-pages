@@ -1,0 +1,51 @@
+.cards_container{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(211, 211, 211);
+    display: flex;
+    align-items: center;
+    flex-wrap:initial;
+    justify-content: center;
+}
+ .circle{
+    margin-left: 100px;
+    width: 70px;
+    height: 70px;
+    background-image: linear-gradient(to Right ,rgb(78, 81, 248) ,rgb(98, 101, 252), rgb(118, 121, 255),rgb(133, 125, 243));
+    /* background-image: linear-gradient(rgb(43, 43, 161),rgb(61, 124, 232));  */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 5px 3.5px rgb(100, 90, 238);
+    border: none;
+    font-size: 25px;
+} 
+
+.Cards_elem{
+    width: 320px;
+    height: 270px;
+    padding: 10px;
+    color: white;
+}
+
+.contant{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Cards_elem h2{
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(238, 238, 238);
+}
+
+.Cards_elem p{
+    margin: 15px;
+    font-size: 11px;
+    font-weight: 500;
+    color: rgb(238, 237, 237);
+}

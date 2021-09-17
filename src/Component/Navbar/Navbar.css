@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+.nav_bar{
+    width: 100%;
+    height: 4rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 30px;
+    /* position: fixed; */
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.Navbar_brand{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.list{
+    list-style-type: none;
+    display: flex;
+}
+
+
+.right_Nav_bar .ham_burger{
+    display: none;
+}
+
+.Navbar_brand:hover{
+    color: rgb(70, 110, 243);
+}
+
+.list a{
+    margin-left: 2rem;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.list a:hover{
+    color: green;
+}
+.active_class{
+    color: blue;
+    border-bottom: 1.5px solid rgb(131, 98, 98);
+}
+
+
+
+
+
+/* 
+@media (max-width: 1011px) {
+    .nav_bar{
+        padding-left: 70px;
+    }
+     .Navbar_brand{
+        font-size: 30px;
+    }
+     .right-element{
+        display: none;
+    }
+    .right_Nav_bar .ham_burger{
+        display: block ;
+        font-size: 30px;
+    }
+} */
+
+@media (max-width: 1080px) {
+    .nav_bar{
+        padding-left: 70px;
+    }
+     .Navbar_brand{
+        font-size: 30px;
+    }
+     .right-element{
+        display: none;
+    }
+    .right_Nav_bar .ham_burger{
+        display: block ;
+        font-size: 30px;
+    }
+}
+
+
+@media (max-width: 1079px) {
+    .nav_bar{
+        padding-left: 50px;
+    }
+     .Navbar_brand{
+        font-size: 20px;
+    }
+    .right-element{
+        display: none;
+    }
+    .ham_burger{
+        margin-left: 50px;
+    }
+    .right_Nav_bar .ham_burger{
+        margin-left: 50px;
+        display: block ;
+        font-size: 30px;
+    }
+    .ham_burger{
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+    .mobile-menu-link{
+        grid-column: 2/4;
+        position: relative;
+        z-index: 99;
+       
+    }
+
+    .mobile-menu-link{
+        position: absolute;
+        top: 60px;
+        right: 0px;
+        background-color: rgb(255, 255, 255);
+        height: 15rem;
+        display: grid;
+        width: 100%;
+        align-items: center;
+        padding-left: 3rem;
+        transform-origin: top;
+    }
+    .right-element .list{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .right-element .list li{
+        margin-top: 10px;
+        color: white;
+        font-size: 25px;
+    }
+    /* .list{
+        display: none;
+    } */
+    
+}
